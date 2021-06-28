@@ -1,16 +1,18 @@
-import java.util.Scanner;
+import java.util.Random;
 
-public class EstruturaSwitch {
+public class EstruturaSwitchAleatorio {
 
 	public static void main(String[] args) {
 		/*Crie um programa que permita ao usuário escolher o elogio que gostaria de receber, de acordo com a seguinte regra: 1 - Elogio profissional, 2 - Elogio físico, 3 - Elogio pessoal
 		 * Caso digite qualquer outro número, deve ser exibida a mensagem "opção inválida"*/
-		Scanner leitor = new Scanner(System.in);
+		
+		Random gerador = new Random();
 		int opcao;
 		System.out.println("ELOGIADOR!");
-		System.out.println("Selecione a opção desejada:\n1-Elogio profissional\n2-Elogio físico\n3-Elogio pessoal");
-		opcao = leitor.nextInt();
-	
+		
+		
+	    opcao = gerador.nextInt(3);
+	    System.out.println(opcao);
 		//Aqui precisamos de uma estrutura para validar a opção inserida.
 switch (opcao) {
 case 0:
@@ -29,7 +31,7 @@ case 2:
 }
 		
 		
-leitor.close();
+		
 
 	}
 
