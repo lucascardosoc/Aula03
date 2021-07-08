@@ -16,7 +16,6 @@ public class OperadorNao {
 		
 		leitor.close();
 		
-
 	}
 
 }
