@@ -18,7 +18,6 @@ public class OperadorE {
 			System.out.println("Usuário e/ou senha incorretos");
 		}
 		
-		
 		leitor.close();
 
 	}
