@@ -20,7 +20,6 @@ public class OperadorXou {
 		}
 		
 		
-		
 		leitor.close();
 		
 
