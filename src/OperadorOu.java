@@ -10,7 +10,7 @@ public class OperadorOu {
 		System.out.println("SISTEMA DE DESCONTOS");
 		System.out.println("Por favor, digite o valor total da compra");
 		totalCompra = leitor.nextDouble();
-		System.out.println("Por favor, digite o seu cupom");
+		System.out.println("a");
 		cupom = leitor.next();
 		
 		//Aqui é preciso criar um if que verifique as duas condições para que o desconto seja ou não aplicado
