@@ -28,7 +28,6 @@ case 3:
 
 }
 		
-		
 		leitor.close();
 
 	}
